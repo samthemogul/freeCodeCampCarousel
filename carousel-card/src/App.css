@@ -1,0 +1,94 @@
+.heading {
+  font-family: var(--font-lato);
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--ash);
+  margin-bottom: 40px;
+  text-align: center;
+}
+.cards-main {
+  padding: 0 100px;
+}
+
+.slick-slide > div {
+  margin: 0 20px;
+}
+.arrow {
+  color: var(--ash);
+  font-size: 5em;
+}
+
+.arrow_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  z-index: 2;
+}
+.prev_arrow {
+  top: 45%;
+  left: -5%;
+}
+.next_arrow {
+  top: 45%;
+  right: -5%;
+}
+.card {
+  width: 400px;
+  height: 550px;
+  background-color: var(--dark-blue);
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+
+}
+.card_img_container {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+.card_img_container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* .card p {
+  font-family: var(--font-family);
+} */
+.card-description {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 1rem;
+  /* align-items: center; */
+  
+}
+.name_location {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name_location .author_name {
+  font-size: 1.5rem;
+  font-family: var(--font-family);
+  color: var(--ash);
+}
+.name_location .location {
+  font-size: 1rem;
+  font-family: var(--font-family);
+  color: var(--light-ash);
+}
+.job {
+  font-size: 1rem;
+  font-family: var(--font-family);
+  color: var(--light-ash);
+}
+.testimony {
+  font-size: 1.1rem;
+  color: var(--ash);
+  font-family: var(--font-lato);
+  line-height: 1.5rem;
+}
